@@ -73,13 +73,19 @@ a.sectorlink:active {
     //
 } */
 
+
+.candCompleteName, .sectortitle {
+    font-weight: 900;
+}
+
+.infoblock {
+    font-style: normal;
+}
+
 #nowstage, #birthdate, #localaddress, #contacts {
     font-style: oblique;
     border: 0;
     margin: 3px;
-}
-.infoblock {
-    font-style: normal;
 }
 
 a.mailref:link {
@@ -107,9 +113,6 @@ a.mailref:active {
     text-decoration: underline;
 }
 
-.candCompleteName, .sectortitle {
-    font-weight: 900;
-}
 
 /* .footer {
 
