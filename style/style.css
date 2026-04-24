@@ -1,0 +1,120 @@
+/* Importing the Roboto Mono type font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Setting up the font features for the entire document */
+* {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+}
+
+p {
+    text-align: justify;
+}
+
+/* .header {
+    // Diamo stile alla testata della pagina HTML
+} */
+
+/* #cv {
+    // Diamo stile al div titolo
+} */
+
+/* #title {
+    // Diamo stile al titolo principale della pagina
+} */
+
+/* #cvnavbar {
+    // Diamo stile alla barra di navigazione che contiene il titolo
+} */
+
+/* .menuspan {
+    // Diamo stile ad ogni oggetto del menu di navigazione
+} */
+
+a.sectorlink:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a.sectorlink:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a.sectorlink:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+    
+}
+
+a.sectorlink:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+/* #cvbox { 
+    // Stile del corpo del Curriculum Vitae
+} */
+
+/* #headlocksec {
+    // Stile della testata del CV
+} */
+
+/* .emptyspace{
+
+} */
+
+/* .candCompleteName {
+    //
+} */
+
+#nowstage, #birthdate, #localaddress, #contacts {
+    font-style: oblique;
+    border: 0;
+    margin: 3px;
+}
+.infoblock {
+    font-style: normal;
+}
+
+a.mailref:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a.mailref:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a.mailref:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+    
+}
+
+a.mailref:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.candCompleteName, .sectortitle {
+    font-weight: 900;
+}
+
+/* .footer {
+
+} */
+
+/* .fname {
+
+} */
