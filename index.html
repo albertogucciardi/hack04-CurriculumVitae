@@ -4,7 +4,7 @@
     <meta char set="UTF-8">
     <meta name="description" content="Il mio Curriculum Vitae">
     <meta name="keywords" content="CV, curriculum, vitae, Alberto, Gucciardi, informatica bresso, informatica milano e provincia">
-    <meta http-equiv="refresh" content="5">
+    <!-- <meta http-equiv="refresh" content="5"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <title>Alberto Gucciardi! Curriculum Vitae</title>
@@ -12,19 +12,21 @@
 <body>
     <header class="header">
         <div id="cv">
-
             <h1 id="title">AG Curriculum Vitae</h1>
         </div>
         <nav id="cvnavbar">
-            <span class="menuspan"><a class="sectorlink" href="index.html">Home</a></span>
-            <span class="menuspan"><a class ="sectorlink" href="#introduction">Introduzione</a></span>
-            <span class="menuspan"> <a class="sectorlink" href="#workexperiences">Esperienze lavorative</a></span>
-            <span class="menuspan">Competenze</span>
-            <span class="menuspan">Attestati</span>
-            <span class="menuspan">Certificazioni</span>
-            <span class="menuspan">Istruzione</span>
+            <ul class="menuspan"><a class="sectorlink" href="index.html">Home</a></ul>
+            <ul class="menuspan"><a class ="sectorlink" href="#introduction">Introduzione</a></ul>
+            <ul class="menuspan"> <a class="sectorlink" href="#workexperiences">Esperienze lavorative</a></ul>
+            <ul class="menuspan"><a class="sectorlink" href="#skillsachieved">Competenze acquisite</a></ul>
+            <ul class="menuspan"><a class="sectorlink" href="#participations">Attestati</a></ul>
+            <ul class="menuspan"><a class="sectorlink" href="#certifications">Certificazioni</a></ul>
+            <ul class="menuspan"><a class="sectorlink" href="#schoolgrades">Istruzione</a></ul>
         </nav>
     </header>
+
+    <div class="emptyspace">&nbsp;</div>
+    
     <main id="cvbox">
         <div class="emptyspace">&nbsp;</div>
 
@@ -78,13 +80,35 @@
          <div class="emptyspace">&nbsp;</div>
 
          <!-- Sezione delle Competenze -->
-         <section id="skillsec">
+         <section id="skillsachieved">
             <h2 class="sectortitle">Competenze acquisite</h2>
             <hr>
-            <div></div>
+            <div class="skillsec">
+                <h3 class="skillname">Competenza 1</h3>
+                <p class="skilldetail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati asperiores nesciunt ea ratione harum repudiandae earum saepe? Deleniti mollitia recusandae dolorem officia inventore quibusdam. Nesciunt optio beatae ex natus nostrum!</p>
+            </div>
+            <!-- Lasciare sempre uno spazio bianco tra le sezioni -->
+            <div class="emptyspace">&nbsp;</div>
+            <div class="skillsec">
+                <h3 class="skillname">Competenza 2</h3>
+                <p class="skilldetail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate cum provident voluptatem inventore nobis sapiente non ad expedita commodi assumenda quasi ea qui, quia reiciendis necessitatibus iusto laborum incidunt obcaecati.</p>
+            </div>    
+            <!-- Lasciare sempre uno spazio bianco tra le sezioni -->
+            <div class="emptyspace">&nbsp;</div>
+            <div class="skillsec">
+                <h3 class="skillname">Competenza 3</h3>
+                <p class="skilldetail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic perspiciatis consequuntur aut voluptatem neque rerum ipsam atque dolore voluptate, maxime quia qui asperiores, amet corporis, optio rem facere tenetur nobis.</p>
+            </div>
          </section>
 
-    </main>
+         <!-- Lasciare sempre uno spazio bianco tra le sezioni -->
+         <div class="emptyspace">&nbsp;</div>
+
+         <section id="participations"></section>
+         <section id="certifications"></section>
+         <section id="schoolgrades"></section>
+
+    </main> 
     <footer class="footer">
         <section class="fname"></section>
     </footer>
